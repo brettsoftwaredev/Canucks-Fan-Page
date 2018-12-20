@@ -19,17 +19,17 @@ self.addEventListener('install', event => {
         caches.open(canuckCache).then(function(cache) {
             return cache.addAll(
                 [
-                    '/images/alexander-edler-2018-39.jpg',
-                    '/images/arena.jpg',
-                    '/images/brock.jpg',
-                    '/images/gagner.jpg',
-                    '/images/horvat.jpg',
-                    '/images/logo.jpg',
-                    '/js/app.js',
-                    '/js/gulpfile.js',
-                    '/index.html',
-                    '/',
-                    '/css.css'
+                    './images/alexander-edler-2018-39.jpg',
+                    './images/arena.jpg',
+                    './images/brock.jpg',
+                    './images/gagner.jpg',
+                    './images/horvat.jpg',
+                    './images/logo.jpg',
+                    './js/app.js',
+                    './js/gulpfile.js',
+                    './index.html',
+                    './',
+                    './css.css'
                 ]
             );
         })
