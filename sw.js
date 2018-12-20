@@ -1,4 +1,4 @@
-const canuckCache = 'canuck-cache-2'
+const canuckCache = 'canuck-cache-3'
 
 self.addEventListener('activate', event => {
     event.waitUntil(
